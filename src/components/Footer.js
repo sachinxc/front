@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography, Link } from "@mui/material";
+import { Favorite } from "@mui/icons-material";
 
 function Footer() {
   return (
@@ -13,7 +14,14 @@ function Footer() {
       }}
     >
       <Typography variant="body2" sx={{ marginBottom: "0.5rem" }}>
-        © 2024 Action Chain. Made with Love.
+        © 2024 Action Chain. Made with{" "}
+        <Favorite
+          sx={{
+            fontSize: "1rem",
+            color: "#ff5a5a",
+            verticalAlign: "text-bottom",
+          }}
+        />
       </Typography>
       <Box>
         <Link
