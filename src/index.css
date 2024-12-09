@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.profile-container {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2,
+.profile-info p {
+  margin: 5px 0;
+}
+
+.edit-button {
+  background-color: #00bfff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.contributions {
+  margin-top: 20px;
+}
+
+.contribution-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contribution-item {
+  background-color: #28a745;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contribution-item button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-section {
+  background-color: #00bfff;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.edit-section label,
+.edit-section button {
+  display: block;
+  margin: 10px 0;
+}

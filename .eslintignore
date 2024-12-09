@@ -1,0 +1,10 @@
+node_modules/
+build/
+dist/
+public/
+src/App.js
+src/components/faceRecognition/Test.jsx
+src/components/faceRecognition/Register.jsx
+src/components/faceRecognition/TestPhoto.jsx
+src/pages/Login.js
+src/pages/CreateContribution.js
