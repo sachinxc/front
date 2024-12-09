@@ -13,11 +13,11 @@ function Footer() {
         padding: "1rem",
       }}
     >
-      <Typography variant="body2" sx={{ marginBottom: "0.5rem" }}>
+      <Typography variant="body1" sx={{ marginBottom: "0.5rem" }}>
         © 2024 Action Chain. Made with{" "}
         <Favorite
           sx={{
-            fontSize: "1rem",
+            fontSize: "1.1rem",
             color: "#ff5a5a",
             verticalAlign: "text-bottom",
           }}
