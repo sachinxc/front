@@ -20,7 +20,7 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { login } from "../services/api";
-import sideImage from "../assets/loginside.jpg";
+import sideImage from "../assets/loginside.svg";
 import { Link as RouterLink } from "react-router-dom";
 
 const defaultTheme = createTheme();
