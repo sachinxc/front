@@ -175,7 +175,8 @@ const PostPage = () => {
     <Container>
       <Card
         sx={{
-          width: "100%",
+          p: 2,
+          width: "85%",
           margin: "100px auto 100px auto",
           boxShadow: 3,
           borderRadius: "12px",
