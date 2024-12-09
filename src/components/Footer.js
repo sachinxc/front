@@ -27,7 +27,7 @@ function Footer() {
         <Link
           href="/privacy-policy"
           sx={{
-            fontSize: "0.9rem",
+            fontSize: "0.86rem",
             color: "white",
             textDecoration: "none",
             "&:hover": {
@@ -41,7 +41,7 @@ function Footer() {
         <Link
           href="/terms"
           sx={{
-            fontSize: "0.9rem",
+            fontSize: "0.86rem",
             color: "white",
             textDecoration: "none",
             "&:hover": {
