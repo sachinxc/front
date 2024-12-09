@@ -176,7 +176,7 @@ const PostPage = () => {
       <Card
         sx={{
           width: "100%",
-          margin: "100px auto 24px auto",
+          margin: "100px auto 100px auto",
           boxShadow: 3,
           borderRadius: "12px",
           overflow: "hidden",
