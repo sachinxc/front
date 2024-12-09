@@ -17,7 +17,7 @@ function Footer() {
         © 2024 Action Chain. Made with{" "}
         <Favorite
           sx={{
-            fontSize: "1.10rem",
+            fontSize: "1.14rem",
             color: "#ff5a5a",
             verticalAlign: "text-bottom",
           }}
