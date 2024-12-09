@@ -175,7 +175,7 @@ const PostPage = () => {
     <Container>
       <Card
         sx={{
-          p: 2,
+          p: 3,
           width: "85%",
           margin: "100px auto 100px auto",
           boxShadow: 3,
@@ -185,9 +185,10 @@ const PostPage = () => {
       >
         <CardContent>
           <Typography
+            sx={{ fontSize: "1.6rem" }}
             variant="h5"
             fontWeight="bold"
-            my={2}
+            mb={3}
             textAlign={"center"}
           >
             {title}
@@ -300,15 +301,19 @@ const PostPage = () => {
                   "&:hover": { color: "red" },
                 }}
               >
-                <Favorite />
+                <Favorite sx={{ fontSize: "1.8rem" }} />
               </IconButton>
-              <Typography variant="body2">{likes.length}</Typography>
+              <Typography variant="body2" fontWeight={600}>
+                {likes.length}
+              </Typography>
             </Box>
             <Box display="flex" alignItems="center">
               <IconButton sx={{ color: "gray" }}>
-                <ModeCommentIcon />
+                <ModeCommentIcon sx={{ fontSize: "1.8rem" }} />
               </IconButton>
-              <Typography variant="body2">{comments.length}</Typography>
+              <Typography variant="body2" fontWeight={600}>
+                {comments.length}
+              </Typography>
             </Box>
           </Box>
 
@@ -360,7 +365,7 @@ const PostPage = () => {
                 size="small"
               />
               <IconButton onClick={handleAddComment} sx={{ marginLeft: 1 }}>
-                <ModeCommentIcon />
+                <ModeCommentIcon sx={{ fontSize: "1.8rem" }} />
               </IconButton>
             </Box>
 
