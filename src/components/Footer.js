@@ -13,7 +13,7 @@ function Footer() {
         padding: "1rem",
       }}
     >
-      <Typography variant="body1" sx={{ marginBottom: "0.2rem" }}>
+      <Typography variant="body1" sx={{ marginBottom: "0.1rem" }}>
         © 2024 Action Chain. Made with{" "}
         <Favorite
           sx={{
